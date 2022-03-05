@@ -360,8 +360,139 @@ header ul li{
     margin: 15px;
 }
 
+.conntcted-commerce-parent{
+    background-color: #052999;
+    text-align: center;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.conntcted-commerce{
+    color: #fff;
+}
+
+.conntcted-commerce h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.conntcted-commerce-subtitle{
+    margin-bottom: 2rem;
+}
+
+.conntcted-commerce-button, .card-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conntcted-commerce-button > a{
+    margin: 15px;
+}
+
+.card {
+    padding: 30px;
+    margin: 20px;
+    color: #fff;
+}
+
+.card-black{
+    background-color: #031b29;
+}
+
+.card-light-border{
+    border: 2px solid #3c4559;
+    border-radius: 5px;
+}
+
+.card-img{
+    margin-bottom: 1.5rem;
+}
+
+.card-header{
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.customer-saying{
+    margin: 30px 0;
+}
+
+.customer-saying h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.tab{
+    display: flex;
+}
+
+.tab-header{
+    border-radius: 5px;
+    padding: 0.375rem 4rem;
+}
+
+.tab-header img{
+    height: 80px;
+}
+
+.tab-active{
+    background-image: linear-gradient(180deg,#6d68fe 0%,#b446ff 100%);
+    box-shadow: 0px 18px 50px -5px rgb(52 82 255 / 30%);
+}
+
+.tab-header:hover{
+    background-image: linear-gradient(180deg,#6d68fe 0%,#b446ff 100%);
+    box-shadow: 0px 18px 50px -5px rgb(52 82 255 / 30%);
+}
+
+.tab-body{
+    margin: 30px 0;
+}
+
+.tab-details{
+    display: flex;
+}
+
+.tab-details-body-1{
+    width: 35%;
+}
+
+.tab-details-body-1 h1{
+    text-align: left;
+    font-weight: 500;
+}
+
+.tab-details-body-2{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-details-body-2 img{
+    width: 400px;
+    height: 400px;
+}
+
+.read-more{
+    padding: 20px 0;
+}
+
+.read-more a{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.read-more a span{
+    margin-right: 1rem;
+}
+
 @media screen and (max-width: 480px) {
-    header > div, .main > div, .all-details, .top-pannel > div, .menu-big > ul{
+    header > div, .main > div, .all-details, .top-pannel > div, .menu-big > ul, .conntcted-commerce-button, .card-bg{
         flex-direction: column;
     }
     header > div > div{
@@ -385,7 +516,7 @@ header ul li{
     .title{
         font-size: 40px;
     }
-    .detailsHead{
+    .detailsHead, .conntcted-commerce h1{
         font-size: 30px;
         line-height: 1;
     }
@@ -417,5 +548,9 @@ header ul li{
     .dropdown{
         position: relative;
         box-shadow: none;
+    }
+
+    .customer-saying{
+        display: none;
     }
   }
